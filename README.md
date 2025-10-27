@@ -24,14 +24,8 @@ The ablation study revealed that increasing the input resolution from (32 x 32) 
 
 # Q2: Text-Driven Image Segmentation with SAM 2
 
-The user can upload an image and also provide a text prompt along with the image. The image along with the prompt is fed to OWL-ViT Model in order to obtain bounding box coordinates. These bounding box coordinates are then used as prompts to SAM 2 model in order to obtain a fine grained segmentation mask. Below is an example of user input image and text prompt. 
+The user can upload an image and also provide a text prompt along with the image. The image along with the prompt is fed to OWL-ViT Model in order to obtain bounding box coordinates. These bounding box coordinates are then used as prompts to SAM 2 model in order to obtain a fine grained segmentation mask. 
 
-![Input Image](https://ultralytics.com/images/zidane.jpg)
+The input image, text prompt, ouput from the OWL-ViT model and the final output from the SAM2 model can all be seen in q2.ipynb. 
 
-Below is the output from the OWL-ViT Model. 
 
-Output1
-
-Above bounding boxes are given as prompts to the SAM 2 Model and the final result is shown below. 
-
-Output2
